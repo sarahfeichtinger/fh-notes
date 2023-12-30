@@ -1,0 +1,114 @@
+10.
+
+S1: aussage, false
+S2: aussage, true
+S3: keine Aussage
+S4: keine Aussage
+S5: keine Aussage
+S6: aussage, true
+S7: aussage, true vlt
+S8: aussage, true
+S9: keine aussage
+S10: aussage, falsch
+
+11.
+
+a) ((A ∧ (¬B)) =⇒ C)
+b) (((A ∧ B) =⇒ (¬C)) ⇐⇒ A)
+c) (C ∨ ((C ⇐⇒ B) ∧ A))
+d) ((A =⇒ B) ⇐⇒ ((¬B) =⇒ (¬A)))
+
+12.
+
+a)
+A | B | ¬A | ¬B | A ∧ B | ¬(A ∧ B) | ¬A ∨ ¬B
+
+w   w   f    f     w          f          f
+w   f   f    w     f          w          w
+f   w   w    f     f          w          w
+f   f   w    w     f          w          w
+
+b)
+A | B | ¬A | ¬B | A ∨ B | ¬(A ∨ B) | ¬A ∧ ¬B
+
+w   w   f    f     w          f          f
+w   f   f    w     w          f          f
+f   w   w    f     w          f          f
+f   f   w    w     f          w          w
+
+13.
+
+a)
+A | B | ¬B | A ⇒ B | ¬(A ⇒ B) | A ∧ ¬B
+
+w   w   f     w          f        f
+w   f   w     f          w        w
+f   w   f     w          f        f
+f   f   w     w          f        f
+
+b)
+A | B | ¬A | ¬B | A ⇒ B | ¬B ⇒ ¬A
+
+w   w   f    f     w          w
+w   f   f    w     f          f
+f   w   w    f     w          w
+f   f   w    w     w          w
+
+c)
+A | B | A ⇒ B | B ⇒ A | A ⇔ B | (A ⇒ B) ∧ (B ⇒ A)
+
+w   w     w       w       w             w
+w   f     f       w       f             f
+f   w     w       f       f             f
+f   f     w       w       w             w
+
+
+14.
+A | B | A ⇒ B | A ∧ (A ⇒ B) | A ∧ (A ⇒ B) ⇒ B
+
+w   w     w         w               w
+w   f     f         f               w
+f   w     w         f               w
+f   f     w         f               w
+
+
+15.
+
+Verneinen Sie die folgenden Aussagen:
+a) Schnee ist nicht schwarz.
+b) Vögel, die fliegen können, gibt es nicht.
+c) Es gibt Studierende, die sich an den Strahlensatz erinnern.
+d) 4 >= 7
+e) Es regnet nicht oder die Erde ist keine Scheibe.
+f) Die Erde ist keine Scheibe und auch kein Würfel
+
+
+16.
+
+a)
+Diese Teilaussagen und ihre Negationen werden nun wie folgt verknüpft:
+C1: 9 ist durch 3 teilbar und 9 ist eine Quadratzahl.
+C2: 9 ist nicht durch 3 teilbar und 9 ist eine Quadratzahl.
+C3: 9 ist durch 3 teilbar und 9 ist keine Quadratzahl.
+C4: 9 ist nicht durch 3 teilbar und 9 ist keine Quadratzahl.
+
+                    C1       C2       C3       C4
+A | ¬A | B | ¬B | A ∧ B | ¬A ∧ B | A ∧ ¬B | ¬A ∧ ¬B
+w    f   w    f     t       f         f        f
+
+
+b)
+D1: 9 ist durch 3 teilbar oder 9 ist eine Quadratzahl.
+D2: 9 ist nicht durch 3 teilbar oder 9 ist eine Quadratzahl.
+D3: 9 ist durch 3 teilbar oder 9 ist keine Quadratzahl.
+D4: 9 ist nicht durch 3 teilbar oder 9 ist keine Quadratzahl.
+
+                    D1      D2       D3        D4
+A | ¬A | B | ¬B | A ∨ B | ¬A ∨ B | A ∨ ¬B | ¬A ∨ ¬B
+f    t   t   f      t       t        f         t
+
+
+17.
+
+a) 0 + 1/3 + 1/2 + 3/5 < 1/2,5 * 2/3 * 3/3,5 * 1 = 1,40 < 0.229 => false
+b) 2,44 < 2,71 => true
